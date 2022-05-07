@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8C091"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/rectangle_1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationX="-120"
+            android:translationY="-65"
+            app:srcCompat="@drawable/vector" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Мое смарт-устройство "
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:translationX="140"
+            android:translationY="-100" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationY="-50"
+            app:srcCompat="@drawable/rectangle_9" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationX="-140"
+            android:translationY="-110"
+            app:srcCompat="@drawable/vector_1_" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.3 KM"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:translationX="320"
+            android:translationY="-135" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationY="-80"
+            app:srcCompat="@drawable/rectangle_9" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationX="-140"
+            android:translationY="-140"
+            app:srcCompat="@drawable/vector_2_" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 59 Kcal"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:translationX="320"
+            android:translationY="-170" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationY="-110"
+            app:srcCompat="@drawable/rectangle_9" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationX="-140"
+            android:translationY="-170"
+            app:srcCompat="@drawable/vector_3_" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="30 MIN"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:translationX="320"
+            android:translationY="-195" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationY="-140"
+            app:srcCompat="@drawable/rectangle_9" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1583 STEPS"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:translationX="310"
+            android:translationY="-185" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="450dp"
+            android:layout_height="47dp"
+            android:translationX="-160"
+            android:translationY="-220"
+            app:srcCompat="@drawable/vector_4_" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="778dp">
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="292dp"
+            android:layout_height="113dp"
+            android:translationX="-60"
+            android:translationY="600"
+            app:srcCompat="@drawable/rectangle_3" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="237dp"
+            android:layout_height="177dp"
+            android:layout_weight="1"
+            android:translationX="-20"
+            android:translationY="570"
+            app:srcCompat="@drawable/rectangle_3" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
